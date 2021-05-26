@@ -1,0 +1,37 @@
+
+#body{
+    height: 1000px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-style: double;
+    border-color: blue;
+}
+
+#ul{
+    list-style: none;
+    font-family: cursive;
+    position: absolute;
+    top: 10px;
+    z-index: 10;
+    cursor:pointer;   
+}
+.links{
+    float: left;
+    color: rgb(0, 0, 0);
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+    font-size: 22px;
+}
+.links:hover{
+    background-color: purple;
+}
+#mainimage{
+    height: 10%;
+    width: 100%;
+}
+#h1{
+    text-align: center;
+}
